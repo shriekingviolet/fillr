@@ -11,6 +11,22 @@ const PostSchema = new Schema({
         type: Date,
         required: [true],
         default: Date.now
+    },
+    violenceCW: {
+        type: Boolean,
+        default: false
+    },
+    homophobiaCW: {
+        type: Boolean,
+        default: false
+    },
+    racismCW: {
+        type: Boolean,
+        default: false
+    },
+    transphobiaCW: {
+        type: Boolean,
+        default: false
     }
 })
 

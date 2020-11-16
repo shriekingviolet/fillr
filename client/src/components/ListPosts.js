@@ -1,6 +1,7 @@
 import React from 'react';
 
 const ListPosts = ({posts}) => {
+    
     return(
         <ul>
             {
